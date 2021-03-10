@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LessonFirst</string>
+    <string name="my_string">тест строка</string>
+</resources>
