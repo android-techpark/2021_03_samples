@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">LessonFirst</string>
-    <string name="my_string">тест строка</string>
+    <string name="my_string">test</string>
+    <string name="start_second">start</string>
 </resources>

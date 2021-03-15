@@ -11,12 +11,12 @@
         android:theme="@style/Theme.LessonFirst">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.main" />
-                <category android:name="android.intent.category.launcher" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity">
-        </activity>
+        <activity android:name=".SecondActivity"/>
     </application>
 
 </manifest>
