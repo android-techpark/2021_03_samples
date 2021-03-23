@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.mail.techpark.lesson4">
+
+    <application
+        android:name="ru.mail.techpark.lesson4.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="ru.mail.techpark.lesson4.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ru.mail.techpark.lesson4.BatteryLevelActivity"
+            android:documentLaunchMode="always"
+            android:label="BatteryLevelActivity">
+            <intent-filter>
+                <action android:name="ru.mail.techpark.test_chooser"/>
+                <!-- android.intent.category.DEFAULT category needed for showing service chooser -->
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ru.mail.techpark.lesson4.TimerActivity"
+            android:theme="@style/AppTheme"
+            android:label="TimerActivity">
+            <intent-filter>
+                <action android:name="ru.mail.techpark.test_chooser"/>
+                <!-- android.intent.category.DEFAULT category needed for showing service chooser -->
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="ru.mail.techpark.lesson4.LocaleChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="ru.mail.techpark.lesson4.TimerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="${applicationId}.action_start_timer" />
+                <action android:name="${applicationId}.action_stop_timer" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

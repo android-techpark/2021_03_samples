@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/time"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/explicit_start"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/explicit_start" />
+
+    <Button
+        android:id="@+id/implicit_start"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/implicit_start" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/stop" />
+
+</LinearLayout>
