@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">lesson3</string>
+    <string name="second_activity">Second activity</string>
+    <string name="go_to_second">Go to second</string>
+    <string name="set_dynamic_text">set dynamic text</string>
+
+    <string name="btn_second_activity">Second Activity</string>
+    <string name="btn_layout_fragment">Layout</string>
+    <string name="btn_dynamic_fragment">Dynamic</string>
+    <string name="btn_dynamic_fragment_fixed">Dynamic fixed</string>
+    <string name="red_fragment">RED FRAGMENT</string>
+    <string name="blue_fragment">BLUE FRAGMENT</string>
+    <string name="green_fragment">GREEN FRAGMENT</string>
+    <string name="btn_transactions_by_id">By id</string>
+    <string name="btn_transactions_by_tag">By tag</string>
+    <string name="add_fragment">Add Fragment</string>
+    <string name="add_to_back_stack">Add to BackStack</string>
+    <string name="remove_fragment">Remove Fragment</string>
+    <string name="btn_multi_action">Multi Action</string>
+    <string name="btn_switch">Switch</string>
+    <string name="btn_state_loss">State Loss</string>
+    <string name="btn_do_it">Do It!</string>
+    <string name="btn_do_it_allowing_loss">Do it and loss</string>
+    <string name="btn_cooperation">Cooperation</string>
+    <string name="second_activity_title">Second Activity</string>
+    <string name="rollback">Rollback until red</string>
+    <string name="transaction_label">Transaction:</string>
+</resources>

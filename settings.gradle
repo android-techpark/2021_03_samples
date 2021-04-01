@@ -1,4 +1,7 @@
+include ':lesson5'
 include ':lesson4'
 include ':lesson2'
+include ':lesson3'
+include ':lesson3_lib'
 include ':app'
 rootProject.name = "LessonFirst"

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">lesson5</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="working">woring</string>
+    <string name="looper_and_handler">Looper Handler</string>
+    <string name="thread_pool">Thead Pool</string>
+    <string name="intent_service">Intent Service</string>
+    <string name="network">Network</string>
+    <string name="start_thread">start thread</string>
+    <string name="stop_thread">stop thrad</string>
+    <string name="to_lower_case">to lower case</string>
+    <string name="to_upper_case">to upper case</string>
+    <string name="foreground">foregound</string>
+    <string name="add_task">add task</string>
+    <string name="user_agent">user agent</string>
+    <string name="async_tasks">async_tasks</string>
+    <string name="launch_task">launch task</string>
+</resources>

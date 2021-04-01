@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main_layout"
+    android:padding="@dimen/activity_padding"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/looper_and_handler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/looper_and_handler"/>
+
+    <Button
+        android:id="@+id/thread_pool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/thread_pool"/>
+
+    <Button
+        android:id="@+id/intent_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intent_service"/>
+
+    <Button
+        android:id="@+id/async_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/async_tasks"/>
+
+    <Button
+        android:id="@+id/network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/network"/>
+</LinearLayout>
