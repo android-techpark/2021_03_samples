@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Lecture 9. Animations</string>
+    <string name="animation_comparision_title">ViewAnimation VS PropertyAnimation</string>
+    <string name="view_animation">ViewAnimation</string>
+    <string name="property_animation">PropertyAnimation</string>
+    <string name="play_animation">Play</string>
+    <string name="play_animation_builder">Play (with Builder)</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_comparison">Comparison</string>
+    <string name="menu_animator">Animator</string>
+    <string name="menu_animator_set">Animator Set</string>
+    <string name="menu_interpolator">Interpolator</string>
+    <string name="menu_diy">DIY Animations</string>
+
+    <string name="rotate_and_alpha">Rotate and Alpha</string>
+    <string name="rotate_and_reverse">Rotate and Reverse</string>
+    <string name="text_color">Text Color</string>
+    <string name="text_size">Text Size</string>
+
+    <string name="app_description">Animation demo application for Lecture 9</string>
+    <string name="technopark">park.mail.ru</string>
+    <string name="coordinator_sample_title">Coordinator Sample</string>
+</resources>

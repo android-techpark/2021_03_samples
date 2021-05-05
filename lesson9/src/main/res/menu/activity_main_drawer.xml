@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_comparision"
+            android:icon="@drawable/ic_compare_arrows_black_24dp"
+            android:title="@string/menu_comparison"/>
+
+        <item
+            android:id="@+id/nav_animator"
+            android:icon="@drawable/ic_play_circle_outline_black_24dp"
+            android:title="@string/menu_animator"/>
+
+        <item
+            android:id="@+id/nav_set"
+            android:icon="@drawable/ic_shuffle_black_24dp"
+            android:title="@string/menu_animator_set"/>
+
+        <item
+            android:id="@+id/nav_interpolator"
+            android:icon="@drawable/ic_directions_run_black_24dp"
+            android:title="@string/menu_interpolator"/>
+
+        <item
+            android:id="@+id/diy"
+            android:icon="@drawable/ic_play_circle_outline_black_24dp"
+            android:title="@string/menu_diy"/>
+
+    </group>
+</menu>
