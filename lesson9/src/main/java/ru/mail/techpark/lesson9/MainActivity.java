@@ -76,6 +76,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 fragment = new SnowFlakesFragment();
                 toolbar.setTitle(R.string.menu_diy);
                 break;
+            case R.id.coordinator_sample:
+                fragment = new CoordinatorSampleFragment();
+                toolbar.setTitle("Coordinator Sample");
+                break;
             default:
                 throw new UnsupportedOperationException();
         }

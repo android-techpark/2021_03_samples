@@ -36,7 +36,7 @@ public class AnimatorFragment extends Fragment {
         inflate.findViewById(R.id.rotate_and_alpha).setOnClickListener(v -> onRotateAndAlphaClick());
         inflate.findViewById(R.id.rotate_and_reverse).setOnClickListener(v -> onRotateAndReverseClick());
         inflate.findViewById(R.id.text_color).setOnClickListener(v -> onTextColorClick());
-        inflate.findViewById(R.id.text_size).setOnClickListener(v -> onTextColorSize());
+        inflate.findViewById(R.id.text_size).setOnClickListener(v -> onTextSize());
         return inflate;
     }
 
@@ -60,7 +60,7 @@ public class AnimatorFragment extends Fragment {
             public void onAnimationUpdate(final ValueAnimator animation) {
                 float value = (float) animation.getAnimatedValue();
                 target.setRotation(value);
-                target.setAlpha(1f - value / endValue);
+                target.setAlpha(1f - (value / endValue));
             }
         });
         animator.start();
@@ -99,7 +99,7 @@ public class AnimatorFragment extends Fragment {
     /**
      * Анимированно меняет размер шрифта
      */
-    void onTextColorSize() {
+    void onTextSize() {
         reset();
 
         animator = ValueAnimator.ofFloat(startFontSize, endFontSize);
