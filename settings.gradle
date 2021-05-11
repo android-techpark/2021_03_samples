@@ -9,3 +9,4 @@ include ':lesson3'
 include ':lesson3_lib'
 include ':app'
 rootProject.name = "LessonFirst"
+include ':lesson10'
