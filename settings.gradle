@@ -1,3 +1,5 @@
+include ':lesson10testing'
+include ':lesson10'
 include ':lesson9'
 include ':lesson7_2'
 include ':lesson7_1'
@@ -9,4 +11,3 @@ include ':lesson3'
 include ':lesson3_lib'
 include ':app'
 rootProject.name = "LessonFirst"
-include ':lesson10'
